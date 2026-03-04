@@ -16,13 +16,20 @@ function App() {
   }
 const total = carrinho.reduce((acc, item) => acc + item.price, 0)
 
+const removeFromCart = (index) => {
+    setCarrinho(carrinho.filter((_, i) => i !== index))
+}
+
   return (
     <div className="app">
       <Header carrinho={carrinho} />
       <Hero />
       <Menu  addToCart={addToCart}/>
       <Footer />
-      <Carrinho carrinho={carrinho} total={total} />
+      <Carrinho carrinho={carrinho} 
+      total={total} 
+      removeFromCart={removeFromCart}
+      />
     </div>
   )
 }
