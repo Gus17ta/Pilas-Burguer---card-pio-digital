@@ -18,7 +18,7 @@ Total: R$ ${total.toFixed(2)}
 Forma de pagamento: ?
 Retirada no local ou entrega?`
 
-        const numero = '5511999999999'
+        const numero = '5511932247711'
         const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
 
         const link = isMobile
