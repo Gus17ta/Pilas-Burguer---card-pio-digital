@@ -5,7 +5,7 @@ function Footer() {
     <footer className="footer" >
       <div className="footer-content">
     <div className="footer-info">
-      <h3>🍔 Pila's Burguer</h3>
+      <h3>🍔 Hamburgues Artesanais</h3>
       <p>Os melhores burguers artesanais de Mauá!</p>
     </div>
     <div className="footer-contato" id="contato">

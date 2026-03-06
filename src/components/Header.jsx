@@ -5,7 +5,7 @@ function Header({ carrinho }) {
     <header className="header">
        <div className="logo">
         <span className="Logo-icon"> 🍔</span>
-        <span className="logo-text">Pila's Burguer</span>     
+        <span className="logo-text">Hamburgues Artesanais</span>     
         </div> 
      <nav className="nav">
     <a href="#menu"> Cardàpio</a>
